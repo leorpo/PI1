@@ -17,7 +17,7 @@ public class jogo_da_velha {
             System.out.println("\nVocê é X ou O? ");
             jogador = leitor.next().charAt(0);
 
-            System.out.println("Informe a localização: ");
+            System.out.println("Informe a sua localização: ");
             int localizacao = leitor.nextInt();
 
             switch (localizacao) {
